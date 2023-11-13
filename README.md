@@ -1,9 +1,8 @@
 # clase
-# Números escritos a mano
-
+# analizador de imagenes
 Este código fuente sirve como apoyo para el video de exportación de modelos de Tensorflow a Tensorflow.js, del canal de YouTube [Ringa Tech](https://youtube.com/RingaTech)
 
-Se trata de un clasificador de números escritos, en donde puedes dibujar en el explorador un número del 0 al 9, y al dar clic en predecir intentará decir qué número es, utilizando Tensorflow.js, en base aun modelo entrenado en Python con Tensorflow
+Se trata de un clasificador de imagenes escritas, en donde puedes dibujar en el explorador ropa y al dar clic en predecir intentará decir qué ropaes, utilizando Tensorflow.js, en base aun modelo entrenado en Python con Tensorflow
 
 ## Probar en vivo
 Puedes probar este proyecto en vivo [aquí](https://ringa-tech.com/exportacion/numeros/)
@@ -22,7 +21,6 @@ Para eso puedes usar cualquier servidor, pero aquí hay una forma de hacerlo:
 - Ejecuta el comando `python -m http.server 8000`
 - Abre un explorador y ve a http://localhost:8000
 ### Uso
-Dibuja con el mouse o tu dedo en el canvas cuadrado un número del 0 al 9, y da clic en "Predecir". Para limpiar el canvas da clic en "Limpiar".
+Dibuja con el mouse o tu dedo en el canvas cuadrado un tipo de prenda y da clic en "Predecir". Para limpiar el canvas da clic en "Limpiar".
 
-## Problemas
-Si tienes un problema, regístralo aquí o déjame un comentario en el video de Youtube. Asegúrate de primero revisar la consola de desarrollador de tu explorador para ver si puedes identificar el problema.
+
